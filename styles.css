@@ -330,3 +330,82 @@ footer a {
         
     }
     }
+
+
+
+
+/* PAGINA CONTACTOS */
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 20px; 
+}
+
+.izquierda,
+.derecha {
+    width: 40%; 
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.izquierda {
+    background-color: #f2f2f2;
+}
+
+.derecha {
+    background-color: #e6f7ff;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#mapa {
+    width: 100%;
+    height: 300px; 
+    background-color: #ddd; 
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
